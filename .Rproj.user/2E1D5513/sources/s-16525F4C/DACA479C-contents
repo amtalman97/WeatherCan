@@ -80,5 +80,7 @@ names(model.corr.temp) <- "corr.coef"
 write.csv(model.corr.temp, paste(path.data.output, "corr.coeff.WOWwer.csv", 
                                  sep = ""), row.names = FALSE)
 
+
+
 # ====== The End ===============================================================
 
