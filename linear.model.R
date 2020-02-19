@@ -1,5 +1,5 @@
 #
-#
+# outline how linear models work
 #
 # ----- regression example ---------------------
 #
@@ -48,8 +48,19 @@ m.2 <- lm(d.mice$stretching ~ d.mice$treatment)
 summary(m.2)
 
 
+m.3 <- lm(d.mice$stretching ~ 1)
+summary(m.3)
+
+# should we keep treatment in or not?
+# is model with treatment and intercept explain more variance than 
+# model with only intercept?
+anova(m.2, m.3)
+
+
 # means model
 m.means.1 <- lm(d.mice$stretching ~ d.mice$treatment - 1)
 summary(m.means.1)
+
+
 
 # -------------------------
