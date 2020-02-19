@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582144055461.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B9737D8",
+    "lastKnownWriteTime" : 1582145545,
+    "last_content_update" : 1582145545235,
+    "path" : "~/Dropbox/2020 S 2 Data analysis using R/WeatherCan/linear.model.R",
+    "project_path" : "linear.model.R",
+    "properties" : {
+        "cursorPosition" : "12,0",
+        "scrollLine" : "1",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
